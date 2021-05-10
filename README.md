@@ -10,12 +10,15 @@ Images for these runs are also included in this repo
 Example Runtimes for add(a, b) == 5: 
 
 1 a = 0, b = 5: Total time = 759
+
 2 a = 0, b = 5: Total time = 996
 
 1 a = 1, b = 5: Total time = 1007
  
 1 a = 6, b = 5: Total time = 833
+
 2 a = 6, b = 5: Total time = 845
+
 3 a = 6, b = 5: Total time = 799
 
 If I were to re-visit this assignment, I would have added some way to provide more human readable feedback that would be appropriate for students. I would have also looked to create a more general approach to my Program Rewriter and Sketch Translator that would not adhere too much to the structure of my "code.py" example code. Moreover, I would have tried to implement different kinds of arithmetic as well instead of just an addition function.
