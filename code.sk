@@ -1,0 +1,56 @@
+int add(int a, int b) {
+	if(??){
+		return a - a + b;
+	}
+	if(??){
+		return a - b + b;
+	}
+	if(??){
+		return a + b - a;
+	}
+	if(??){
+		return a + b - b;
+	}
+	if(??){
+		return a + 1 + b;
+	}
+	if(??){
+		return a + 2 + b;
+	}
+	if(??){
+		return a + 3 + b;
+	}
+	if(??){
+		return a - 1 + b;
+	}
+	if(??){
+		return a - 2 + b;
+	}
+	if(??){
+		return a - 3 + b;
+	}
+	if(??){
+		return a + b + 1;
+	}
+	if(??){
+		return a + b + 2;
+	}
+	if(??){
+		return a + b + 3;
+	}
+	if(??){
+		return a + b - 1;
+	}
+	if(??){
+		return a + b - 2;
+	}
+	if(??){
+		return a + b - 3;
+	}
+}
+
+harness void main(){
+	int a = 6;
+	int b = 5;
+assert add(a, b) == 5;
+}
